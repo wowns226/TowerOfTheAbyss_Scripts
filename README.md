@@ -1,4 +1,6 @@
 # Tower Of The Abyss (심연의 탑)
+외부 에셋으로 인해서 스크립트만 따로 추출한 저장소입니다.
+Git 커밋 이력은 별도의 csv파일(commit history.csv)에 첨부하였습니다.
 
 소개 영상 : https://youtu.be/4xPeUJPAWPo
 <br/>
