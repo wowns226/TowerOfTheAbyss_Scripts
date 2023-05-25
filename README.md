@@ -17,7 +17,7 @@
 
 무한 모드는 제한 없이 계속 진행이 가능합니다.
 
-<br><img src = "https://github.com/wowns226/DefenceCastle/assets/60382915/b96de733-022f-4454-9d07-2ef640032ecc" width="50%" height="50%"> (게임 메인화면)
+<br><img src = "https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/219f8ada-ed84-4da9-832e-315069acbddc" width="50%" height="50%"> (게임 메인화면)
 <br/>
 <br/>
 
@@ -54,7 +54,7 @@
 
 # ⚙ System Architecture
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/fe725ffd-3b54-4377-a596-f6c90432b755" width="50%" height="50%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/5b42ca6e-fb43-454e-a90a-8c34b9fc692e" width="50%" height="50%">
 
 <br/>
 <br/>
@@ -73,7 +73,7 @@
 - 해상도에 맞춰서 UI의 레이아웃이 자연스럽게 잡히도록 구현
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/d8907f87-2493-4828-a675-57ab9abf7f82" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/25c3b8b3-6ec7-4e95-9640-79693f404877" width="60%" height="60%">
 <br>
 <br>
 
@@ -87,14 +87,14 @@
 - 원하는 키로 설정된 키 값을 변경 가능
 - 마우스, 키보드 민감도 설정 가능
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/f6a37cb2-891b-46e8-b617-e2960b763412" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/54c723f0-ec21-4632-af43-f4d5d9d4d6a8" width="60%" height="60%">
 <br>
 <br>
 
 #### 그래픽 설정
 
 - 스킬 이펙트 on/off (단순히 랜더링만 하지 않는게 아니라 실제 스킬 이펙트 자체를 인스턴스 하지 않음)
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/cc64bd09-36a7-4223-876c-49163bf5ad93" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/916f07d0-88f2-4898-8e02-e855d2775f4a" width="60%" height="60%">
 
 <br/>
 <br/>
@@ -105,7 +105,7 @@
 - 모드 변경 시 포스트 프로세싱 효과를 사용해서 분위기 연출, 사운드 변경
 - 모드 별로 최대 라운드 수, 효과 등 차이가 존재
 
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/540ae2ba-8b70-4d36-8e47-ddc242f093dc" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/037a996d-e854-4a6a-a61b-d0d080e6cc19" width="60%" height="60%">
 
 <br/>
 <br/>
@@ -121,7 +121,7 @@
 - 우측 하단에 유닛 별 특수 스킬 등록(이벤트 형식으로 유닛 추가쪽에 등록)
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/90af0628-174e-483c-9450-0b99d2f71215" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/4425c1d3-64a9-4e8e-9627-4fa39c2f9be5" width="60%" height="60%">
 <br>
 <br>
 
@@ -132,6 +132,7 @@
 - 적은 공격 -> 이동 / 아군은 이동 -> 공격 순으로 fsm 설계 (특정 상황에서는 조금 변동이 있음)
 - 적은 피해를 입을 경우 가깝다면 그 쪽을 우선적으로 가도록 처리
 - 스킬 범위와 데미지는 스크립터블 오브젝트를 활용해서 처리
+- 스킬은 각각 우선순위와 가중치가 존재해서 같은 우선순위 일 경우 가중치에 의해 무작위로 시전 되도록
 
 <br>
 <br>
@@ -147,9 +148,9 @@
 - 유닛 하이라이팅 효과, 적이 앞에 있을 경우 투시되게 표시(쉐이더 에셋 사용)
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/23ec7fcc-1a0a-47a9-a51a-ff2ff1483a3c" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/73d5ce91-55b6-4ab6-8b5d-f1b508c88170" width="60%" height="60%">
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/2036d036-b1d9-43e7-ad69-c0677153986e" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/0982c588-5800-40db-a57f-025652fc1f58" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -165,7 +166,7 @@
 - 유저의 정보 확인 가능
 - 추후 업적이 추가되면 확인 가능(현재는 아직 스팀등록이 안되어서 관련 API 사용 불가로 인한 미구현 상태)
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/cd1a0ff6-788d-43a2-a5a5-ae099fc0ca27" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/544af247-48a7-4aa7-aee7-b3998b30f182" width="60%" height="60%">
 <br>
 <br>
 
@@ -174,7 +175,7 @@
 - 특정 연구를 잠금 해제해서 추가적인 효과를 얻는 시스템
 - 1개의 연구에는 여러개의 하위 연구가 있어서 원하는 효과를 취사 선택하여 전략적인 선택 가능
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/936ae5b8-e3a9-487b-bba1-4557721b47dd" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/229dc129-e5f5-43df-a825-e2006a451bd3" width="60%" height="60%">
 <br>
 <br>
 
@@ -185,7 +186,7 @@
 - 유닛 슬롯을 늘리거나 뽑기로 특정 등급의 유닛을 얻을 수 있도록 구현
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/c9276afc-27b3-4c7e-9110-8c12edba237b" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/7eb47339-9445-4204-88bc-936bfba0f1bf" width="60%" height="60%">
 <br>
 <br>
 
@@ -195,7 +196,7 @@
 - 건물의 스텟 업그레이드 가능(추후, 방벽과 공격타워 등 추가 예정)
 - 드론을 추가해서 아군 건물을 수리하거나 디버프, 버프를 사용할 수 있음(드론은 무적상태이며 적정 행동을 알아서 수행하도록 구현)
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/13cf54e5-0b24-47de-a4cf-c81507511dd3" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/040d4884-8237-4974-96e3-73bb452c6437" width="60%" height="60%">
 <br>
 <br>
 
@@ -205,7 +206,7 @@
 - 유물마다 판매가 가능하도록 구현(등급마다 금액 상이)
 - 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/22b96aa3-7c7e-43e0-ab7e-f241534dbac7" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/a7b5d2fc-72b2-423e-8767-a1072180adae" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -220,7 +221,7 @@
 - Open 버튼을 활용해서 해당 프리팹을 바로 열어주는 기능 구현(프리팹으로 존재하는 클래스만 가능)
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/20c94f41-8dca-4689-9761-70b21c697ca4" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/62eed0a4-0e5e-4b95-91fe-7cdf7f927978" width="60%" height="60%">
 <br>
 <br>
 
@@ -232,7 +233,7 @@
 - CustomEditor를 사용해서 보다 사용하기 쉽도록 구현
 
 <br>
-<img src="https://github.com/wowns226/DefenceCastle/assets/60382915/bc78eb98-c12b-41fc-90a1-242d67272ecb" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/e0d0e115-741a-4e97-bf3e-0d5a31e285e3" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -245,7 +246,8 @@
 - 매쉬 컴바인을 통한 드로우콜 조정
 - 빌드 후 로그를 통해서 많은 용량을 차지하는 부분 최적화
 - 오클루전 컬링 적용
-- 아틀라스 맵 추가 예정(아이템 추가가 끝나면 적용)
+- 아틀라스 맵 추가
+- 그래픽 인스턴싱과 랜더링 큐를 이용해서 이펙트 드로우 콜 최적화
 
 <br/>
 <br/>
