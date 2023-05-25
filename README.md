@@ -93,7 +93,7 @@
 
 #### 그래픽 설정
 
-- 스킬 이펙트 on/off (단순히 랜더링만 하지 않는게 아니라 실제 스킬 이펙트 자체를 인스턴스 하지 않음)
+- 스킬 이펙트 on/off (단순히 랜더링만 하지 않는게 아니라 실제 스킬 이펙트 자체를 생성 하지 않음)
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/916f07d0-88f2-4898-8e02-e855d2775f4a" width="60%" height="60%">
 
 <br/>
