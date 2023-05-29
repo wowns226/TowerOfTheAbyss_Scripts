@@ -237,6 +237,16 @@
 <br/>
 <br/>
 
+#### 스킬 스크립터블 오브젝트 편의 기능 추가
+
+- 스킬의 데미지, 간격, 범위를 좀 더 시각적으로 설정 할 수 있게 인스펙터 창 수정
+- 마우스 클릭 시, 검은색으로 변경되고 해당 범위에 공격 데미지가 들어가게 제작
+
+<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/c0a1f979-3469-4fb3-ba3b-7156bd13bddc" width="60%" height="60%">
+<br/>
+<br/>
+
 ## 최적화
 
 - 라이트 프로프 사용
