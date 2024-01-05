@@ -56,12 +56,20 @@
 
 # ⚙ System Architecture
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/5b42ca6e-fb43-454e-a90a-8c34b9fc692e" width="50%" height="50%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/8eec46a9-5203-4350-9d03-48a96777797f" width="50%" height="50%">
 
 <br/>
 <br/>
 
 # ❗ 핵심 기능
+
+## 스토리
+
+- 게임 내 스토리 전달에 사용할 웹툰 연출
+<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/a1240afc-5ff9-4c9e-86ab-1a2ec0bd9b9f" width="60%" height="60%">
+<br/>
+<br/>
 
 ## 세팅 값 조절
 
@@ -124,7 +132,7 @@
 - 우측 하단에 유닛 특수 스킬 등록(이벤트 형식으로 유닛 추가쪽에 등록)
 
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/4425c1d3-64a9-4e8e-9627-4fa39c2f9be5" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/535bea9d-1da6-47f5-a513-1e2f8c92bad7" width="60%" height="60%">
 <br>
 <br>
 
@@ -148,7 +156,9 @@
 - 카드 정보를 표시할 UI 제작
 
 <br>
-<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/f84fd3d5-1c86-4609-9d4c-691df424ef3d" width="60%" height="60%">
+<br/>
+<br/>
 
 #### 전투 연출
 
@@ -179,7 +189,7 @@
 - 유저의 정보 확인 가능
 - 기록 데이터 확인 가능
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/544af247-48a7-4aa7-aee7-b3998b30f182" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/e13b241b-ec0a-45ec-a0b1-9c64e634b059" width="60%" height="60%">
 <br>
 <br>
 
@@ -188,7 +198,7 @@
 - 특정 연구를 잠금 해제해서 추가적인 효과를 얻는 시스템
 - 1개의 연구에는 여러개의 하위 연구가 있어서 원하는 효과를 취사 선택하여 전략적인 선택 가능
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/229dc129-e5f5-43df-a825-e2006a451bd3" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/148f2042-36b3-446c-a21a-c908a5f3cf58" width="60%" height="60%">
 <br>
 <br>
 
@@ -199,7 +209,8 @@
 - 유닛 슬롯을 늘리거나 뽑기로 특정 등급의 유닛을 얻을 수 있도록 구현
 
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/7eb47339-9445-4204-88bc-936bfba0f1bf" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/8f4e4c3b-a082-4e98-bbd6-15f15ca134cb" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/f953abd4-7221-4758-ab3e-4663a53ed9d9" width="60%" height="60%">
 <br>
 <br>
 
@@ -208,8 +219,9 @@
 - 건물의 스텟과 스킬 확인 가능
 - 건물의 스텟 업그레이드 가능(추후, 방벽과 공격타워 등 추가 예정)
 - 드론을 추가해서 아군 건물을 수리하거나 디버프, 버프를 사용할 수 있음(드론은 무적상태이며 적정 행동을 알아서 수행하도록 구현)
+
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/040d4884-8237-4974-96e3-73bb452c6437" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/8e27eb64-e83b-4678-830d-a22188ab45bf" width="60%" height="60%">
 <br>
 <br>
 
@@ -219,7 +231,7 @@
 - 유물마다 판매가 가능하도록 구현(등급마다 금액 상이)
 - 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/a7b5d2fc-72b2-423e-8767-a1072180adae" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/808ab65e-4f8c-4503-86be-d862891dba47" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -227,6 +239,7 @@
 
 - 유저 별 랭킹 확인 가능
 <br>
+<br/>
 
 ## 게임 맵 제작
 
@@ -236,6 +249,7 @@
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/b3abadf5-d598-4b27-ace2-a38a87943907" width="60%" height="60%">
 <br/>
+<br/>
 
 #### 챕터 2
 
@@ -243,12 +257,14 @@
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/78cf8d6a-2527-4c5d-9f85-2a744f491c77" width="60%" height="60%">
 <br/>
+<br/>
 
 #### 챕터 3
 
 - 평지에 언덕이 추가된 구조로 최후의 전장을 컨셉으로 제작
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/cfc4225f-2eca-4590-9f77-d2528b30d710" width="60%" height="60%">
+<br/>
 <br/>
 
 ## 사용 기술
