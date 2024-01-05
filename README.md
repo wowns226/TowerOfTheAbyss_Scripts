@@ -18,7 +18,7 @@
 
 무한 모드는 제한 없이 계속 진행이 가능합니다.
 
-<br><img src = "https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/219f8ada-ed84-4da9-832e-315069acbddc" width="50%" height="50%"> (게임 메인화면)
+<br><img src = "https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/83fb7f55-7089-469b-942d-d715dafb0ac4" width="50%" height="50%"> (게임 메인화면)
 <br/>
 <br/>
 
