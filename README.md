@@ -2,7 +2,7 @@
 >Git 커밋 이력은 별도의 csv파일(commit history.csv)에 첨부하였습니다.
 # Tower Of The Abyss (심연의 탑)
 
-소개 영상 : https://youtu.be/4xPeUJPAWPo
+소개 영상 : [https://youtu.be/4xPeUJPAWPo](https://youtu.be/hKK0JInDPKk)
 <br/>
 
 ## 🖥️ 프로젝트 소개
