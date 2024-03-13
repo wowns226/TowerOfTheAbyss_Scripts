@@ -25,7 +25,7 @@
 <br/>
 
 ## 🕰️ 개발 기간
-* 2022.11 - 2024.01
+* 2022.11 - 2024.02
 <br/>
 <br/>
 
@@ -59,6 +59,9 @@
 <br/>
 
 # ⚙ System Architecture
+
+- CloudFront를 사용해서 어드레서블로 빌드된 에셋 파일을 받을때 캐싱해서 부분을 받아올 수 있도록 세팅
+
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/8eec46a9-5203-4350-9d03-48a96777797f" width="50%" height="50%">
 
@@ -73,6 +76,12 @@
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/a1240afc-5ff9-4c9e-86ab-1a2ec0bd9b9f" width="60%" height="60%">
 <br/>
+<br/>
+
+## 리더보드
+
+- 유저 별 랭킹 확인 가능
+<br>
 <br/>
 
 ## 시네머신
@@ -90,7 +99,7 @@
 
 #### 언어, 해상도 설정
 
-- 유니티 로컬라이제이션을 이용해서 언어 변경 구현
+- 유니티 로컬라이제이션을 이용해서 언어 변경 구현(영어, 한국어, 일본어, 중국어, 독일어, 러시아어)
 - 해상도에 맞춰서 UI의 레이아웃이 자연스럽게 잡히도록 구현
 
 <br>
@@ -100,7 +109,7 @@
 
 #### 사운드 설정
 
-- 볼륨 조절
+- 배경음, 효과음 등등 사운드 별로 볼륨 조절 가능
 <br>
 
 #### 키 바인딩 변경, 민감도 조절
@@ -114,7 +123,9 @@
 
 #### 그래픽 설정
 
+- Low,High,Ultra 등등 옵션에 따라서 fps나 퀄리티 조정
 - 스킬 이펙트 on/off (단순히 랜더링만 하지 않는게 아니라 실제 스킬 이펙트 자체를 생성 하지 않음)
+- 엑스트라 스킬 연출 on/off
 - 마우스 이펙트 on/off
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/916f07d0-88f2-4898-8e02-e855d2775f4a" width="60%" height="60%">
 
@@ -141,6 +152,7 @@
 - 좌측 각 유닛 등급별로 색상 구분
 - 게임 배속, 유닛 사거리 확인 UI, 일시 정지 기능 추가(배속은 전체 시간 관리 매니저에 등록하여 UI에서 타임 스케일을 바꾸더라도 영향을 받지 않도록 구현)
 - 우측 하단에 유닛 특수 스킬 등록(이벤트 형식으로 유닛 추가쪽에 등록)
+- 유닛 아이콘을 클릭하면 카메라가 해당 유닛으로 포커싱 되도록 기능 구현
 - 유닛, 버프 지점을 클릭할 경우 간략한 정보를 표시해주는 UI 구현
 
 <br>
@@ -158,6 +170,29 @@
 - 스킬 범위와 데미지는 스크립터블 오브젝트를 활용해서 처리
 - 스킬은 각각 우선순위와 가중치가 존재해서 같은 우선순위 일 경우 가중치에 의해 무작위로 시전 되도록 구현
 
+<br>
+<br>
+
+#### 보스
+
+- 5라운드마다 보스 등장
+- 보스를 잡을 경우 특별한 보상(카드, 골드) 획득
+- 보스는 본인만의 패턴, 스킬이 존재
+
+<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/a60482b7-ed1f-4765-9511-686fd63a76aa" width="60%" height="60%">
+<br>
+<br>
+
+#### 중립 보스
+
+- 아군/적 관계없이 공격하는 보스 생성
+- 보스를 잡을 경우 특별한 보상(버프, 골드) 획득
+- 중립 보스는 특정 위치에 생성되고 먼저 공격하기 전까지는 공격하지 않도록 구현
+- 게임은 중립보스를 잡지 않아도 진행 할 수 있도록 구현
+
+<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/73b1f75a-df69-4e17-af64-9ebe46f6a785" width="60%" height="60%">
 <br>
 <br>
 
@@ -274,27 +309,12 @@
 
 - 유물의 활성화 여부, 효과, 세트효과 확인 가능
 - 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
-<br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/808ab65e-4f8c-4503-86be-d862891dba47" width="60%" height="60%">
-<br/>
-<br/>
-
-#### 유물
-
-- 유물의 활성화 여부, 효과, 세트효과 확인 가능
-- 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
 - 하단에 주기적으로 탐색해서 발견할 수 있는 유물 추가(골드, 유물 중 랜덤)
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/808ab65e-4f8c-4503-86be-d862891dba47" width="60%" height="60%">
 <br/>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/4b762be8-4f40-4478-bc76-e636a5cd865e" width="60%" height="60%">
 <br/>
-<br/>
-
-#### 리더보드
-
-- 유저 별 랭킹 확인 가능
-<br>
 <br/>
 
 ## 게임 맵 제작
@@ -311,7 +331,7 @@
 
 - 복잡한 지형으로 어둡고 신비로운 분위기를 컨셉으로 제작
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/78cf8d6a-2527-4c5d-9f85-2a744f491c77" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/b92c68f2-8f73-4051-88fb-1e8dc8be1124" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -319,7 +339,7 @@
 
 - 평지에 언덕이 추가된 구조로 최후의 전장을 컨셉으로 제작
 <br>
-<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/cfc4225f-2eca-4590-9f77-d2528b30d710" width="60%" height="60%">
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/bb9974f2-6445-43ef-ac8d-b6fd22b60eac" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -375,6 +395,8 @@
 - 프로파일러를 통한 병목 지점 개선
 - 프레임 디버거로 드로우 콜 확인 후 개선
 - 메모리 프로파일러로 누수되는 부분 체크
+- 너무 심하게 가비지 발생하는 부분 확인 후 메모이제이션으로 처리할 수 있는 부분들은 처리
+- 사운드가 겹쳐서 한번에 여러 번 재생되는 부분은 재생되는 사운드의 볼륨을 올려주는 식으로 처리
 
 <br/>
 <br/>
