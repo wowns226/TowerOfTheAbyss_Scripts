@@ -190,6 +190,7 @@
 - 보스를 잡을 경우 특별한 보상(버프, 골드) 획득
 - 중립 보스는 특정 위치에 생성되고 먼저 공격하기 전까지는 공격하지 않도록 구현
 - 게임은 중립보스를 잡지 않아도 진행 할 수 있도록 구현
+- 시네머신을 통해서 등장 연출
 
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/73b1f75a-df69-4e17-af64-9ebe46f6a785" width="60%" height="60%">
