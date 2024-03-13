@@ -200,11 +200,15 @@
 - HP Bar, Casting Bar, 데미지 UI, 버프는 항상 최상단에 표시되도록 처리
 - 유닛 하이라이팅 효과, 적이 앞에 있을 경우 투시되게 표시(쉐이더 에셋 사용)
 - 단축키를 사용해서 카메라를 해당 유닛으로 이동시키는 유닛 포커싱 기능 추가
+- 줌 블러, 카메라 흔들림, 타임 스케일을 조정해서 타격감 표현
+- 타격 시 적 이동속도를 늦추고 잠시 동안 유닛의 오버레이 컬러를 빨강으로 줘서 타격감 표현
 
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/73d5ce91-55b6-4ab6-8b5d-f1b508c88170" width="60%" height="60%">
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/0982c588-5800-40db-a57f-025652fc1f58" width="60%" height="60%">
+<br/>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/cd5d0a75-3da7-462b-a15d-6636901d30e3" width="60%" height="60%">
 <br/>
 <br/>
 
@@ -272,6 +276,18 @@
 - 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
 <br>
 <img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/808ab65e-4f8c-4503-86be-d862891dba47" width="60%" height="60%">
+<br/>
+<br/>
+
+#### 유물
+
+- 유물의 활성화 여부, 효과, 세트효과 확인 가능
+- 라운드 결과 창에서 랜덤으로 유물이 나오고 원하는 유물 선택이 가능하도록 구현
+- 하단에 주기적으로 탐색해서 발견할 수 있는 유물 추가(골드, 유물 중 랜덤)
+<br>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/808ab65e-4f8c-4503-86be-d862891dba47" width="60%" height="60%">
+<br/>
+<img src="https://github.com/wowns226/TowerOfTheAbyss_Scripts/assets/60382915/4b762be8-4f40-4478-bc76-e636a5cd865e" width="60%" height="60%">
 <br/>
 <br/>
 
