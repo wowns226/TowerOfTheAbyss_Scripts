@@ -4,6 +4,8 @@
 
 소개 영상 : [https://youtu.be/4xPeUJPAWPo](https://youtu.be/hKK0JInDPKk)
 <br>
+인게임 영상 : https://youtu.be/o91kn8_SLjM
+<br>
 데모 링크 : https://store.steampowered.com/app/2709030/Tower_of_the_abyss/
 <br/>
 <br/>
